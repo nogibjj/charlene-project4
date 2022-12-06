@@ -10,7 +10,7 @@ format:
 	black *.py src/*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py lib/*.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
 
 refactor: format lint
 
